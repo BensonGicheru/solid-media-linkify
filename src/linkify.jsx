@@ -25,7 +25,9 @@ export default function Linkify(props) {
 	let italic = s => s
 	if (s.startsWith('>')) {
 		s = s.replace(/^>\s*/, '').trim()
-		quote = s => (<q>{s}</q>)
+		quote = s = () => {
+			return <q>{s}</q>
+		}
 	}
 	if (s.startsWith('/ ')) {
 		s = s.replace(/^\/\s+/, '').trim()

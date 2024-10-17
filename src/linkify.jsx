@@ -26,7 +26,7 @@ export default function Linkify(props) {
 	if (s.startsWith('>')) {
 		s = s.replace(/^>\s*/, '').trim()
 		quote = s = () => {
-			return <q>{s}</q>
+			return (<><q>{s}</q></>)
 		}
 	}
 	if (s.startsWith('/ ')) {

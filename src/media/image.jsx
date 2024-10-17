@@ -1,6 +1,6 @@
 import { cleanLink } from './util'
 
-import Link from './link.js'
+import Link from './link'
 
 export default function Image(props) {
 	return (

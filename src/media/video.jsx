@@ -1,6 +1,6 @@
 import { cleanLink } from './util'
 
-import Link from './link.js'
+import Link from './link'
 
 export default function Video(props) {
 	return (

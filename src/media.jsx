@@ -1,10 +1,10 @@
 import { createMutable } from 'solid-js/store'
 import PromisedComponent from './promised-component'
 
-import Video from './media/video.js'
-import Audio from './media/audio.js'
-import Image from './media/image.js'
-import Link from './media/link.js'
+import Video from './media/video'
+import Audio from './media/audio'
+import Image from './media/image'
+import Link from './media/link'
 
 function toObjectURL(url) {
 	let link = createMutable({ url })

@@ -1,7 +1,7 @@
-import Media from './media.js'
+import Media from './media'
 import Emoji from './emoji.json'
-import isEmoji from './is-emoji.js'
-import tokenize from './tokenize.js'
+import isEmoji from './is-emoji'
+import tokenize from './tokenize'
 
 const noop = () => {}
 const separator = /(\s+)/

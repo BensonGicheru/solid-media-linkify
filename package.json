@@ -2,7 +2,7 @@
 	"name": "solid-media-linkify",
 	"version": "3.0.33",
 	"description": "Given a string it returns links, images, videos, audio as tags and also emojis like :duck: as 🦆.",
-	"main": "index.ts",
+	"main": "index.js",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/titoBouzout/solid-media-linkify.git"

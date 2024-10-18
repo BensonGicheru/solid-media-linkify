@@ -1,4 +1,3 @@
-import { JSX } from 'solid-js'
 import Media from './media'
 import Emoji from './emoji.json'
 import isEmoji from './is-emoji'
@@ -7,7 +6,7 @@ import tokenize from './tokenize'
 const noop = () => {}
 const separator = /(\s+)/
 
-export default function Linkify(props): JSX.Element {
+export default function Linkify(props) {
 	let scroll = props.scroll || noop
 	let mark = props.mark ? props.mark.toLowerCase() : false
 
